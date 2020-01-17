@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 30px;
+  position: relative;
+  top: 100px;
+  border-radius: 0.3rem;
+  background: linear-gradient(
+    0deg,
+    rgba(61, 61, 73, 1) 49%,
+    rgba(128, 128, 145, 1) 100%
+  );
+}
+nav {
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+
+  width: 100%;
+  position: relative;
+  top: 3px;
+  border-right: 1px solid black;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav input[type='search'] {
+  position: relative;
+  top: 3px;
+  background-color: inherit;
+  border-radius: 7px;
+  position: relative;
+  left: 5px;
+}
+
+nav a:hover {
+  background-color: #3b3b3b;
+}
+
+#searchBtn {
+  font-size: 10px;
+  position: relative;
+  right: 110px;
+  color: #000;
+}
+
+.container {
+  width: 70%;
+  height: 100vh;
+  margin: 0 auto;
+  background: url(./images/your_verse_hero.jpg) no-repeat;
+  background-position: center -480px;
+}
