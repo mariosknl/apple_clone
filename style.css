@@ -7,26 +7,22 @@
 
 header {
   width: 100%;
-  height: 30px;
   position: relative;
   top: 100px;
-  border-radius: 0.3rem;
+}
+
+nav ul {
+  height: 40px;
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background: linear-gradient(
     0deg,
     rgba(61, 61, 73, 1) 49%,
     rgba(128, 128, 145, 1) 100%
   );
-}
-nav {
-  width: 100%;
-}
-
-nav ul {
-  list-style: none;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  border-radius: 5px;
 }
 
 nav ul li {
@@ -35,11 +31,13 @@ nav ul li {
   align-items: center;
   font-size: 14px;
   font-weight: 400;
-
   width: 100%;
-  position: relative;
-  top: 3px;
-  border-right: 1px solid black;
+  height: 40px;
+  border-right: 1px solid gray;
+}
+
+nav ul li:nth-child(9) {
+  border-right: none;
 }
 
 nav a {
@@ -49,15 +47,23 @@ nav a {
 
 nav input[type='search'] {
   position: relative;
-  top: 3px;
-  background-color: inherit;
+  border: inherit;
+  background: linear-gradient(
+    0deg,
+    rgba(61, 61, 73, 1) 4%,
+    rgba(128, 128, 145, 1) 100%
+  );
   border-radius: 7px;
-  position: relative;
   left: 5px;
+  height: 20px;
 }
 
 nav a:hover {
   background-color: #3b3b3b;
+}
+
+#apple {
+  font-size: 22px;
 }
 
 #searchBtn {
@@ -73,4 +79,12 @@ nav a:hover {
   margin: 0 auto;
   background: url(./images/your_verse_hero.jpg) no-repeat;
   background-position: center -480px;
+}
+
+.images {
+  width: 5%;
+  display: flex;
+  position: relative;
+  right: 250px;
+  top: 680px;
 }
