@@ -2,17 +2,18 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-size: 62.5%;
+  font-family: 'Work Sans', sans-serif;
 }
 
 header {
-  width: 100%;
+  width: 95%;
   position: relative;
-  top: 100px;
+  top: 80px;
 }
 
 nav ul {
-  height: 40px;
+  height: 4rem;
   list-style: none;
   display: flex;
   justify-content: center;
@@ -26,14 +27,22 @@ nav ul {
 }
 
 nav ul li {
+  width: 30%;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 14px;
+  font-size: 2.5rem;
   font-weight: 400;
-  width: 100%;
-  height: 40px;
   border-right: 1px solid gray;
+}
+
+nav ul li:hover {
+  background: radial-gradient(
+    circle,
+    rgba(47, 47, 59, 1) 50%,
+    rgba(4, 4, 17, 1) 100%
+  );
 }
 
 nav ul li:nth-child(9) {
@@ -55,26 +64,24 @@ nav input[type='search'] {
   );
   border-radius: 7px;
   left: 5px;
-  height: 20px;
-}
-
-nav a:hover {
-  background-color: #3b3b3b;
+  height: 60%;
+  width: 130px;
 }
 
 #apple {
-  font-size: 22px;
+  font-size: 2.2rem;
 }
 
 #searchBtn {
-  font-size: 12px;
+  font-size: 1.5rem;
   position: relative;
-  right: 90px;
+  right: 85%;
   color: #fff;
+  opacity: 0.8;
 }
 
 .container {
-  width: 70%;
+  width: 75%;
   height: 100vh;
   margin: 0 auto;
   background: url(./images/your_verse_hero.jpg) no-repeat;
@@ -82,33 +89,119 @@ nav a:hover {
 }
 
 main h1 {
-  font-size: 60px;
-  font-weight: 100;
+  font-size: 6.5rem;
+  font-weight: 300;
   color: #fff;
   letter-spacing: 2px;
-  opacity: 0.7;
+  opacity: 0.8;
   position: relative;
   top: 260px;
-  left: 200px;
+  left: 16%;
 }
 main h2 {
-  font-size: 28px;
+  font-size: 2.8rem;
   font-weight: 100;
   color: #fff;
   letter-spacing: 2px;
-  opacity: 0.7;
+  opacity: 0.8;
   position: relative;
   top: 260px;
-  left: 180px;
-  width: 70%;
-  line-height: 40px;
+  left: 9%;
+  width: 90%;
+  line-height: 4rem;
+  text-align: center;
+}
+
+main h3 {
+  position: relative;
+  top: 280px;
+  left: 30%;
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 300;
+  letter-spacing: 2px;
 }
 
 .images {
-  width: 5%;
-  display: flex;
+  background-color: khaki;
+  max-width: 1440px;
+  width: 100%;
+  min-width: 740px;
+  height: 200px;
   position: relative;
+  top: 608px;
+  right: 16%;
+}
 
-  right: 250px;
-  top: 680px;
+.images ul {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  list-style: none;
+}
+
+.images img {
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.images a {
+  cursor: pointer;
+}
+
+footer {
+  font-size: 1.5rem;
+  width: 40%;
+  position: relative;
+}
+
+.footer-left {
+  position: relative;
+  top: 620px;
+  left: 5%;
+}
+
+footer a {
+  color: blue;
+  font-size: 1rem;
+}
+
+footer a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.footer-right {
+  width: 120%;
+  position: absolute;
+  top: 620px;
+  left: 130%;
+}
+
+.footer-right ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer-right ul li {
+  list-style: none;
+  border-right: 1px solid #000000;
+  padding-right: 5px;
+  padding-left: 1px;
+}
+
+.footer-right ul li:nth-child(8) {
+  border: none;
+  color: none;
+}
+
+.footer-right ul li a {
+  text-decoration: none;
+}
+
+.footer-bottom {
+  position: absolute;
+  top: 650px;
+  left: 5%;
 }
