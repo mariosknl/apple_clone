@@ -9,10 +9,10 @@
 
 /* NavBar */
 header {
-  width: 75%;
+  width: 980px;
   position: absolute;
   top: 80px;
-  right: 120px;
+  right: 200px;
 }
 
 nav ul {
