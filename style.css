@@ -67,10 +67,10 @@ nav a:hover {
 }
 
 #searchBtn {
-  font-size: 10px;
+  font-size: 12px;
   position: relative;
-  right: 110px;
-  color: #000;
+  right: 90px;
+  color: #fff;
 }
 
 .container {
