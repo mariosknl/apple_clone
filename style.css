@@ -1,3 +1,4 @@
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +7,7 @@
   font-family: 'Work Sans', sans-serif;
 }
 
+/* NavBar */
 header {
   width: 95%;
   position: relative;
@@ -80,6 +82,7 @@ nav input[type='search'] {
   opacity: 0.8;
 }
 
+/* Main Page Container */
 .container {
   width: 75%;
   height: 100vh;
@@ -123,15 +126,17 @@ main h3 {
   letter-spacing: 2px;
 }
 
+/* Promo Images  */
+
 .images {
   background-color: khaki;
   max-width: 1440px;
   width: 100%;
   min-width: 740px;
   height: 200px;
-  position: relative;
-  top: 608px;
-  right: 16.5%;
+  position: absolute;
+  top: 840px;
+  right: 5px;
 }
 
 .images ul {
@@ -155,16 +160,18 @@ footer a {
   cursor: pointer;
 }
 
+/* Footer */
+
 footer {
   font-size: 1.5rem;
   width: 40%;
-  position: relative;
+  position: absolute;
 }
 
 .footer-left {
   position: relative;
-  top: 620px;
-  left: 5%;
+  top: 820px;
+  left: 40px;
 }
 
 footer a:hover {
@@ -175,8 +182,8 @@ footer a:hover {
 .footer-right {
   width: 120%;
   position: absolute;
-  top: 620px;
-  left: 130%;
+  top: 820px;
+  left: 550px;
 }
 
 .footer-right ul {
@@ -203,6 +210,6 @@ footer a:hover {
 
 .footer-bottom {
   position: absolute;
-  top: 650px;
-  left: 5%;
+  top: 840px;
+  left: 40px;
 }
