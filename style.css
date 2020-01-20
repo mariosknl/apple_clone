@@ -98,6 +98,7 @@ main h1 {
   top: 260px;
   left: 16%;
 }
+
 main h2 {
   font-size: 2.8rem;
   font-weight: 100;
@@ -130,7 +131,7 @@ main h3 {
   height: 200px;
   position: relative;
   top: 608px;
-  right: 16%;
+  right: 16.5%;
 }
 
 .images ul {
@@ -143,6 +144,11 @@ main h3 {
   width: 360px;
   height: 200px;
   overflow: hidden;
+}
+
+footer a {
+  color: blue;
+  font-size: 1rem;
 }
 
 .images a {
@@ -159,11 +165,6 @@ footer {
   position: relative;
   top: 620px;
   left: 5%;
-}
-
-footer a {
-  color: blue;
-  font-size: 1rem;
 }
 
 footer a:hover {
@@ -186,7 +187,7 @@ footer a:hover {
 
 .footer-right ul li {
   list-style: none;
-  border-right: 1px solid #000000;
+  border-right: 1px solid #000;
   padding-right: 5px;
   padding-left: 1px;
 }
