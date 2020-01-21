@@ -244,14 +244,14 @@ footer a:hover {
   }
 }
 
-/* @media only screen and (max-width: 1680px) {
+@media only screen and (max-width: 1680px) {
   header {
     width: 900px;
     top: 120px;
-    right: 140px;
+    right: 340px;
   }
   .container {
-    width: 80%;
+    width: 60%;
   }
 
   main h3 {
@@ -259,17 +259,89 @@ footer a:hover {
   }
 
   .images img {
-    width: 336px;
+    width: 360px;
+    position: relative;
+    right: 115px;
   }
 
   footer {
     top: 240px;
     position: absolute;
-    left: 70px;
+    left: 130px;
   }
 
   .footer-right {
     position: absolute;
     left: 650px;
   }
-} */
+}
+@media only screen and (max-width: 1920px) {
+  header {
+    width: 900px;
+    top: 120px;
+    right: 490px;
+  }
+  .container {
+    width: 55%;
+  }
+
+  main h3 {
+    left: 25%;
+  }
+
+  .images img {
+    width: 360px;
+    position: relative;
+    right: 235px;
+  }
+
+  footer {
+    top: 240px;
+    position: absolute;
+    left: 280px;
+  }
+
+  .footer-right {
+    position: absolute;
+    left: 700px;
+  }
+
+  .footer-right {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 2560px) {
+  header {
+    width: 900px;
+    top: 120px;
+    right: 800px;
+  }
+  .container {
+    width: 40%;
+  }
+
+  main h3 {
+    left: 25%;
+  }
+
+  .images img {
+    width: 360px;
+    position: relative;
+    right: 555px;
+  }
+
+  footer {
+    top: 240px;
+    position: absolute;
+    left: 670px;
+  }
+
+  .footer-right {
+    position: absolute;
+    left: 650px;
+  }
+
+  .footer-right {
+    width: 60%;
+  }
+}
