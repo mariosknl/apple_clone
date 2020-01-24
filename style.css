@@ -21,11 +21,13 @@ nav ul {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(
-    0deg,
-    rgba(61, 61, 73, 1) 49%,
-    rgba(128, 128, 145, 1) 100%
-  );
+  background:
+
+    linear-gradient(
+      0deg,
+      rgba(61, 61, 73, 1) 49%,
+      rgba(128, 128, 145, 1) 100%
+    );
   border-radius: 5px;
 }
 
@@ -48,11 +50,13 @@ nav ul li {
 }
 
 nav ul li:hover {
-  background: radial-gradient(
-    circle,
-    rgba(47, 47, 59, 1) 50%,
-    rgba(4, 4, 17, 1) 100%
-  );
+  background:
+
+    radial-gradient(
+      circle,
+      rgba(47, 47, 59, 1) 50%,
+      rgba(4, 4, 17, 1) 100%
+    );
 }
 
 nav ul li:nth-child(9) {
@@ -67,11 +71,13 @@ nav a {
 nav input[type='search'] {
   position: relative;
   border: inherit;
-  background: linear-gradient(
-    0deg,
-    rgba(61, 61, 73, 1) 4%,
-    rgba(128, 128, 145, 1) 100%
-  );
+  background:
+
+    linear-gradient(
+      0deg,
+      rgba(61, 61, 73, 1) 4%,
+      rgba(128, 128, 145, 1) 100%
+    );
   border-radius: 7px;
   left: 5px;
   height: 60%;
