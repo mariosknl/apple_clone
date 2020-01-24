@@ -2,3 +2,10 @@
 linters:
   stylelint:
     config: 'stylelint.config.js'
+
+    files:
+      ignore:
+        - './images/*.jpg'
+        - './images/*.png'
+        - '*.png'
+        - '*.jpg'

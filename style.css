@@ -40,6 +40,13 @@ nav ul li {
   border-right: 1px solid gray;
 }
 
+.footer-right ul li {
+  list-style: none;
+  border-right: 1px solid #000;
+  padding-right: 5px;
+  padding-left: 1px;
+}
+
 nav ul li:hover {
   background: radial-gradient(
     circle,
@@ -190,13 +197,6 @@ footer a:hover {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-}
-
-.footer-right ul li {
-  list-style: none;
-  border-right: 1px solid #000;
-  padding-right: 5px;
-  padding-left: 1px;
 }
 
 .footer-right ul li:nth-child(8) {
